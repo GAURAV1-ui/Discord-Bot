@@ -15,6 +15,10 @@ client.on("messageCreate", (message) => {
     })
 });
 
+client.on("interactionCreate", (interaction) => {
+    interaction.reply("Pong");
+})
+
 client.login(
-    "MTIwMTg4MjQwNTQzOTU1NzY1Mg.GU_yvX.EzWKBsZxv6ZukdhMNjekBmcKqIriG0M-rXcyxw"
+    "MTIwMTg4MjQwNTQzOTU1NzY1Mg.GFXMLM.bCD9FsxuwoWoSB6bphl_pGffzJO0HltVTUsx8o"
     );
